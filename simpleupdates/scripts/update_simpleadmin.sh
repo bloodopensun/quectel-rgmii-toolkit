@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define constants
-GITUSER="iamromulan"
+GITUSER="bloodopensun"
 GITTREE="development"
 DIR_NAME="simpleadmin"
 SERVICE_FILE="/lib/systemd/system/install_simpleadmin.service"
@@ -45,7 +45,7 @@ EOF
 cat <<EOF > "$TMP_SCRIPT"
 #!/bin/bash
 
-GITUSER="iamromulan"
+GITUSER="bloodopensun"
 GITTREE="development"
 SIMPLE_ADMIN_DIR="/usrdata/simpleadmin"
 export HOME=/usrdata/root

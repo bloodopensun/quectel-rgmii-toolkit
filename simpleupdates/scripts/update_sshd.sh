@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define constants
-GITUSER="iamromulan"
+GITUSER="bloodopensun"
 GITTREE="development"
 DIR_NAME="simpleupdates"
 SERVICE_FILE="/lib/systemd/system/install_sshd.service"
@@ -29,7 +29,7 @@ EOF
 cat <<EOF > "$TMP_SCRIPT"
 #!/bin/bash
 
-GITUSER="iamromulan"
+GITUSER="bloodopensun"
 GITTREE="development"
 
 install_sshd() {

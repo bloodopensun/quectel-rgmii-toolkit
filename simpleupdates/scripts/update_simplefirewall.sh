@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define constants
-GITUSER="iamromulan"
+GITUSER="bloodopensun"
 GITTREE="development"
 DIR_NAME="simplefirewall"
 SERVICE_FILE="/lib/systemd/system/install_simplefirewall.service"
@@ -41,7 +41,7 @@ EOF
 cat <<EOF > "$TMP_SCRIPT"
 #!/bin/bash
 
-GITUSER="iamromulan"
+GITUSER="bloodopensun"
 GITTREE="development"
 SIMPLE_FIREWALL_DIR="/usrdata/simplefirewall"
 SIMPLE_FIREWALL_SCRIPT="$SIMPLE_FIREWALL_DIR/simplefirewall.sh"

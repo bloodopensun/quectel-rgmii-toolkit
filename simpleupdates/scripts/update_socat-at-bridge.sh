@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Define constants
-GITUSER="iamromulan"
+GITUSER="bloodopensun"
 GITTREE="development"
 DIR_NAME="socat-at-bridge"
 SERVICE_FILE="/lib/systemd/system/install_socat-at-bridge.service"
@@ -39,7 +39,7 @@ EOF
 cat <<EOF > "$TMP_SCRIPT"
 #!/bin/bash
 
-GITUSER="iamromulan"
+GITUSER="bloodopensun"
 GITTREE="development"
 SOCAT_AT_DIR="/usrdata/socat-at-bridge"
 SOCAT_AT_SYSD_DIR="/usrdata/socat-at-bridge/systemd_units"
